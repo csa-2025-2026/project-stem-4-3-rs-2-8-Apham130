@@ -4,6 +4,13 @@ public class Main
 {
   public static void main(String[] args)
   {
-    // write solutions to problems here
+    for (int i = 1; i <=25; i++)
+    {
+      System.out.println(i);
+    }
+
+    for (int i = 17)
+      
+    
   }
 }
