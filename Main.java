@@ -9,8 +9,21 @@ public class Main
       System.out.println(i);
     }
 
-    for (int i = 17)
+
+    int count = 0;
+    for (int i = 17; i <= 73; i++) 
+    {
+      count++;
+      System.out.print(i + " ");
+      if (count == 10) {
+        count = 0;
+        System.out.println();
+      }
+    }
       
+
+    Scanner sc = new Scanner(System.in);
+    System.out.println()
     
   }
 }
